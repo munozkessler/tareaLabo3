@@ -29,7 +29,7 @@ public class MainController {
 		productos.add(new Product(6, "apio", 55));
 		productos.add(new Product(7, "miel de abeja", 12));
 		
-		mav.setViewName("select");
+		mav.setViewName("productos");
 		mav.addObject("product", new Product());
 		mav.addObject("producto", productos);
 
